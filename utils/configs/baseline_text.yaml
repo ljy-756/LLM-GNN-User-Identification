@@ -1,0 +1,19 @@
+# utils/configs/baseline_text.yaml
+
+model_name: bert-base-uncased
+max_length: 192
+batch_size: 16
+learning_rate: 0.00002
+epochs: 30
+weight_decay: 0.01
+seed: 42
+num_labels: 2
+
+data_path: dataset\cresci-rtbust-2019\cresci_cleaned.csv
+text_column: "combined_text"
+label_column: "label"
+
+output_dir: "baseline_text/results"
+save_path: "experiments/baseline_text_bert/model"
+validation_split: 0.1
+test_split: 0.1

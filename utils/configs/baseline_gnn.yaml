@@ -1,0 +1,15 @@
+#utils\configs\baseline_gnn.yaml
+
+model_type: gcn
+dataset_path: dataset/cresci-rtbust-2019/cresci_cleaned.csv
+feature_type: tfidf
+
+hidden_dim: 64
+epochs: 100
+learning_rate: 0.005
+weight_decay: 0.0005
+val_ratio: 0.1   
+test_ratio: 0.1  
+seed: 42
+
+save_path: baseline_gnn/checkpoints/

@@ -1,0 +1,22 @@
+# utils\configs\fusion_two_labels.yaml
+model_type: fusion_gcn_bert
+
+bert_dim: 768
+hidden_dim: 64
+num_classes: 2
+dropout: 0.5
+
+epochs: 300
+learning_rate: 0.001
+weight_decay: 0.0005
+val_ratio: 0.2
+test_ratio: 0.1
+seed: 42
+
+dataset_path: dataset/cresci-rtbust-2019/cresci_cleaned.csv
+
+bert_embedding_path: fusion_two_labels/bert_embeddings.pt
+
+k: 10   # KNN邻居数
+
+save_path: experiments\fusion_two_labels
