@@ -1,0 +1,19 @@
+📊 验证集结果：
+              precision    recall  f1-score   support
+
+       human     0.7538    0.7000    0.7259        70
+         bot     0.7123    0.7647    0.7376        68
+
+    accuracy                         0.7319       138
+   macro avg     0.7331    0.7324    0.7318       138
+weighted avg     0.7334    0.7319    0.7317       138
+
+📊 测试集结果：
+              precision    recall  f1-score   support
+
+       human     0.7419    0.7419    0.7419        31
+         bot     0.7895    0.7895    0.7895        38
+
+    accuracy                         0.7681        69
+   macro avg     0.7657    0.7657    0.7657        69
+weighted avg     0.7681    0.7681    0.7681        69
